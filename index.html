@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myportfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- HEADER DESIGN-->
+  <header class="header">
+    <a href="#" class="logo">portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      
+    </nav>
+  </header>
+
+  <!--HOME SECTION DESIGN-->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi,Myself</h3>
+      <h1>Madhu Chityala</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>I'm open to learn new things</p>
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <a href="#" class="btn">Download Cv</a>
+    </div>
+    <div class="home-img">
+      <img src="projectimages/profilepic1.jpg" alt="">
+    </div>
+  </section>
+
+  <!--ABOUT SECTION DESIGN-->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="projectimages/profilepic3.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">ABOUT <span>Me</span></h2>
+      <h3>Frontend Developer</h3>
+      <p>write about yourself</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!--SERVICE SECTION DESIGN-->
+
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>write about your wed dev journey</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>python programming</h3>
+        <p>write about your wed dev journey</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>DevOps Engineer</h3>
+        <p>write about your wed dev journey</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--PORTFOLIO SECTION DESIGN-->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="projectimages/course1.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>write about your project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="projectimages/course2.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>write about your project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="projectimages/course3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>write about your project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="projectimages/course3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>write about your project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="projectimages/course2.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>write about your project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="projectimages/course1.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>write about your project</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+    
+    </div>
+  </section>
+
+  <!--CONTACT SECTION INFORMATION-->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+      <input type="hidden" name="access_key" value="0184e4a6-c7d6-4635-af0d-e35df16f7431">
+
+      <div class="input-box">
+        <input type="text" name="Firsrname" placeholder="FullName" required>
+        <input type="email" name="email" placeholder="Email Adreess" required>
+      </div>
+      <div class="input-box">
+        <input type="number" name="Mobile Number" placeholder="Mobile Number" required>
+        <input type="text"  name="subject" placeholder="Subject" required>
+      </div>
+      <textarea name="Message" id="" cols="30" rows="10" required></textarea>
+      <input type="submit" value="Send message"class="btn">
+    </form>
+  </section>
+  
+  <!--FOOTER DESIGN-->
+
+  <footer class="footer-text">
+    <div>
+      <p>Copy right &copy;2024 by@Madhuchityala | All Rights Reserverd.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+    
+
+  </footer>
+
+  <!--SCROLL REVEAL JS-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--Typed Js-->
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!--MAIN JS-->
+  <script src="/main.js"></script>
+
+  
+</body>
+</html>
