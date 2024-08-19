@@ -1,7 +1,7 @@
 FROM ubuntu
 RUN apt-get update -y && apt-get install apache2 -y
 RUN apt install openjdk-17-jre-headless -y
-WORKDIR /var/www/html
+RUN /var/run/apache2
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
 ENV APACHE_LOG_DIR /var/log/apache2
